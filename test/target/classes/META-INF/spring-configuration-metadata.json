@@ -1,0 +1,69 @@
+{
+  "groups": [
+    {
+      "name": "pagopa.client",
+      "type": "it.ga.pagopa.PagoPaClientConfiguration",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls",
+      "type": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration",
+      "sourceMethod": "getTls()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "pagopa.client.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.client-certificate-key-path",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.client-certificate-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.client-certificate-path",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.client-key-store-path",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.client-key-store-secret",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.trust-certificate-path",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.trust-store-path",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.trust-store-secret",
+      "type": "java.lang.String",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration"
+    },
+    {
+      "name": "pagopa.client.tls.using-certs",
+      "type": "java.lang.Boolean",
+      "sourceType": "it.ga.pagopa.PagoPaClientConfiguration$SoapClientTLSConfiguration",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}
